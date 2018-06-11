@@ -1,0 +1,155 @@
+.identify-intro-page {
+  width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  padding-bottom: 80px;
+  border-radius: 10px 10px 0 0;
+  .identify-intro-header {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    padding: 27px 50px 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    background-color: #F7F7F7;
+    background-image: url('imgs/intro_top_bg@2x.png');
+    background-size: 100% 100%;
+    position: relative;
+    .top-crown-img {
+      display: inline-block;
+      position: absolute;
+      width: 163px;
+      height: 134px;
+      bottom: 0px;
+      right: 140px;
+      z-index: 2;
+    }
+    .intro-header-title {
+      font-size: 22px;
+      color: #FFFFFF;
+      line-height: 30px;
+    }
+    .intro-header-text {
+      margin-top: 4px;
+      font-size: 14px;
+      color: #FFFFFF;
+      line-height: 20px;
+    }
+  }
+  .intro-main-body {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    .intro-main-title {
+      opacity: 0.9;
+      font-family: PingFangSC-Semibold;
+      font-size: 24px;
+      color: #333333;
+      text-align: center;
+    }
+    .main-body-wrapper {
+      padding: 60px 155px;
+      .intro-steps-line {
+        display: flex;
+        width: 100%;
+        margin-left: -4px;
+        margin-right: -4px;
+        margin-top: 70px;
+        &:first-child {
+          margin-top: 0;
+        }
+        .intro-steps-item {
+          display: inline-block;
+          flex: 0 33.33%;
+          padding-left: 4px;
+          padding-right: 4px;
+          .intro-item-top {
+            position: relative;
+            display: flex;
+            width: 100%;
+            height: 42px;
+            line-height: 42px;
+            overflow: hidden;
+            .item-top-left {
+              margin-left: 30px;
+              margin-top: 6px;
+              display: block;
+              width: 30px;
+              height: 30px;
+              vertical-align: middle;
+              font-family: IMPACT-Normal;
+              font-size: 36px;
+              line-height: 30px;
+              color: #F18115;
+              text-align: center;
+              background: #FFFFFF;
+              -webkit-border-radius: 50%;
+              -moz-border-radius: 50%;
+              border-radius: 50%;
+              z-index: 2;
+            }
+            .item-top-right {
+              margin-left: -0px;
+              flex: 1;
+              display: block;
+              font-size: 16px;
+              color: #333333;
+              text-align: center;
+              z-index: 2;
+            }
+            .item-top-triangle {
+              display: inline-block;
+              width: 42px;
+              height: 42px;
+              -webkit-transform: rotate(180deg);
+              -moz-transform: rotate(180deg);
+              -ms-transform: rotate(180deg);
+              -o-transform: rotate(180deg);
+              transform: rotate(180deg);
+            }
+            .classify-icon{
+              color: #EDEDED;
+              width: 100%;
+              height: 42px;
+              display: block;
+              position: absolute;
+              left: 0;
+              top: 0;
+              font-size: 42px;
+              z-index: 1;
+            }
+          }
+          .intro-item-text {
+            margin-top: 12px;
+            padding: 0 20px;
+            font-size: 13px;
+            color: #888888;
+            line-height: 18px;
+            height: 54px;
+          }
+        }
+      }
+    }
+  }
+  .main-body-btn {
+    margin-top: 10px;
+    text-align: center;
+    .body-next-btn {
+      background: #25B369;
+      border: 1px solid #25B369;
+      box-shadow: 0 0 10px 0 rgba(37,179,105,0.27);
+      border-radius: 2px;
+      display: inline-block;
+      width: 350px;
+      height: 40px;
+      font-size: 14px;
+      line-height: 40px;
+      color: #FFFFFF;
+      text-align: center;
+      vertical-align: middle;
+      cursor: pointer;
+    }
+  }
+}

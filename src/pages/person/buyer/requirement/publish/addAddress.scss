@@ -1,0 +1,108 @@
+.modify-address {
+  margin: 35px 0;
+  .requirement-dialog-main {
+    .el-dialog {
+      width: 700px !important;
+      //height: 435px;
+      .el-dialog__header {
+        width: 700px;
+        //height: 35px;
+        background: #F7F7F7;
+        line-height: 35px;
+        padding: 0 10px 0 18px;
+        .el-dialog__title {
+          font-size: 14px;
+          color: #333333;
+        }
+        .el-dialog__headerbtn {
+          vertical-align: middle;
+          margin-top: -15px;
+        }
+      }
+    }
+  }
+  .address-form {
+    margin-top: 10px;
+    //border: 1px solid #e2e2e2;
+    padding-bottom: 20px;
+    .title {
+      margin-bottom: 20px;
+      background-color: #f9f9f9;
+      padding-left: 10px;
+      height: 35px;
+      line-height: 35px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #333;
+    }
+    .form {
+      padding: 5px 50px;
+      .name {
+        float: left;
+        text-align: right;
+        padding-right: 10px;
+        height: 32px;
+        line-height: 32px;
+        width: 100px;
+        span {
+          color: #fd2e2e;
+        }
+      }
+      .info {
+        float: left;
+        .el-input {
+          height: 30px !important;
+          line-height: 30px !important;;
+          width: 120px;
+        }
+        .el-select:last-child .el-input {
+          width: 120px;
+        }
+        input {
+          height: 30px !important;
+          line-height: 30px !important;
+          border-radius: 1px;
+          border: 1px solid #D2D2D2;
+          font-size: 12px;
+        }
+        textarea {
+          width: 368px !important;
+          height: 90px !important;
+          border-radius: 1px;
+          font-size: 12px;
+        }
+        .input-normal {
+          width: 300px !important;
+        }
+        .check-normal {
+          margin-top: 10px;
+          .el-checkbox__label {
+            color: #333;
+          }
+        }
+        .el-button {
+          width: 50px;
+          height: 28px;
+          padding: 0;
+          border-radius: 1px;
+        }
+      }
+      .warning {
+        height: 20px;
+        line-height: 20px;
+        color: #EB0700;
+        i {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+  }
+}
+.address-title {
+  border-bottom: 0 !important;
+}

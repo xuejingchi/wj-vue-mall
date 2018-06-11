@@ -1,0 +1,97 @@
+.notice-body {
+  margin-top: 20px;
+  border: 1px solid #EEEEEE;
+  padding: 0 25px;
+  .notice-body-title {
+    padding: 30px 0 5px 0;
+    h2 {
+      font-family: PingFangSC-Medium;
+      font-size: 18px;
+      color: #333333;
+      text-align: center;
+    }
+  }
+  .notice-content {
+    padding-bottom: 50px;
+    .notice-info-item {
+      padding: 20px 0;
+      border-bottom: 1px dashed #E2E2E2;
+      &:nth-last-child(1) {
+        border: 0 none;
+      }
+      .notice-info-title {
+        font-size: 0;
+        background: #F3F3F3;
+        padding: 0 15px;
+        .notice-info-title-item {
+          width: 33.33%;
+          display: inline-block;
+          font-family: ArialMT;
+          font-size: 12px;
+          color: #333333;
+          line-height: 36px;
+        }
+        .t-l {
+          text-align: left;
+        }
+        .t-c {
+          text-align: center;
+        }
+        .t-r {
+          text-align: right;
+        }
+      }
+      .m-n {
+        margin: 0 !important;
+      }
+      .notice-info-content {
+        margin-top: 20px;
+        .notice-info-content-title {
+          float: left;
+          width: 85px;
+          font-family: PingFangSC-Medium;
+          font-size: 12px;
+          color: #999999;
+        }
+        .notice-info-content-txt {
+          float: left;
+          width: calc(100% - 85px);
+          p {
+            font-family: PingFangSC-Regular;
+            font-size: 12px;
+            color: #333333;
+            text-align: justify;
+            line-height: 24px;
+          }
+          .notice-info-txt-item {
+            margin-top: 10px;
+            .notice-info-txt-label {
+              width: 100px;
+              float: left;
+            }
+            .notice-info-txt-row {
+              float: left;
+            }
+          }
+        }
+      }
+      .list-table {
+        th {
+          font-size: 12px;
+          background: #f9f9f9;
+          border-right: 0 none;
+          color: #333;
+          height: 40px;
+          div {
+            font-size: 12px;
+          }
+        }
+        tr {
+          div {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

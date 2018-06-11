@@ -1,0 +1,176 @@
+.supplyChain {
+  width: 100%;
+  .supply-item.bg {
+    background: #F4F8F9;
+  }
+  .supply-item {
+    padding: 60px 0 80px 0;
+    .supply-item-content {
+      width: 1200px;
+      margin: 0 auto;
+      .supply-item-title {
+        text-align: center;
+        font-family: PingFangSC-Regular;
+        font-size: 30px;
+        color: #333333;
+        position: relative;
+        line-height: 30px;
+        font-weight: normal;
+        &:before {
+          content: '';
+          width: 55px;
+          height: 4px;
+          background: #2CAF64;
+          position: absolute;
+          top: 50px;
+          left: 50%;
+          margin-left: -27px;
+        }
+      }
+    }
+  }
+  .supply-title-bg {
+    background: url('http://mall.vandream.com:8081/group1/M01/00/01/rBCwI1riHraAISlhAAahtHcS66Y014.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 400px;
+    padding-top: 70px;
+    line-height: 48px;
+    .supply-item-content {
+      padding-left: 25px;
+      .title {
+        font-family: PingFangSC-Regular;
+        font-size: 48px;
+        color: #FFFFFF;
+        text-shadow: 0 3px 5px rgba(0,0,0,0.14);
+        font-weight: normal;
+      }
+      .txt {
+        font-family: PingFangSC-Regular;
+        font-size: 16px;
+        color: #FFFFFF;
+        line-height: 28px;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.15);
+        margin-top: 15px;
+        width: 625px;
+      }
+      .content {
+        margin-top: 90px;
+        .info {
+          font-family: PingFangSC-Regular;
+          font-size: 14px;
+          color: #FFFFFF;
+        }
+        span {
+          font-family: PingFangSC-Semibold;
+          font-size: 20px;
+          color: #FFFFFF;
+          i {
+            display: inline-block;
+            margin-right: 10px;
+            vertical-align: middle;
+            img {
+              vertical-align: top;
+            }
+          }
+          .tel {
+            width: 20px;
+            height: 23px;
+            img {
+              width: 20px;
+            }
+          }
+          .email {
+            width: 26px;
+            height: 21px;
+            img {
+              width: 26px;
+            }
+          }
+        }
+        .vandream {
+          margin-left: 75px;
+        }
+      }
+    }
+  }
+  .supply-item-up {
+    .supply-up-list {
+      font-size: 0;
+      margin-top: 90px;
+      padding-left: 25px;
+      li.no-margin {
+        margin: 0
+      }
+      li {
+        display: inline-block;
+        margin-right: 123px;
+        img {
+          width: 195px;
+          height: 170px;
+        }
+        p {
+          font-family: PingFangSC-Regular;
+          font-size: 18px;
+          color: #666666;
+          text-align: center;
+          line-height: 29px;
+        }
+      }
+    }
+  }
+  .supply-item-advantage {
+    .supply-item-content {
+      padding-left: 25px;
+    }
+    .list {
+      font-size: 0;
+      margin-top: 80px;
+      li.margin-r {
+        margin-right: 50px;
+      }
+      li {
+        display: inline-block;
+        width: 550px;
+        img {
+          width: 550px;
+          vertical-align: middle;
+        }
+        div {
+          height: 105px;
+          padding-top: 20px;
+          padding-left: 30px;
+          background-color: #fff;
+          h3 {
+            font-family: PingFangSC-Regular;
+            font-size: 20px;
+            color: #333333;
+            letter-spacing: 0;
+            line-height: 20px;
+            font-weight: normal;
+          }
+          p {
+            font-family: PingFangSC-Regular;
+            font-size: 16px;
+            color: #2A2A2A;
+            letter-spacing: 0;
+            line-height: 22px;
+            margin-top: 10px;
+            span {
+              font-family: PingFangSC-Semibold;
+              font-size: 16px;
+              color: #168C48;
+              letter-spacing: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .supply-item-log {
+    img {
+      width: 1200px;
+      margin-top: 90px;
+    }
+  }
+}

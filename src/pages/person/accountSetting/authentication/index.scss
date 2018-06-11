@@ -1,0 +1,40 @@
+.authentication {
+  margin-top: 35px;
+  width: 960px;
+  border: 1px solid #e2e2e2;
+  .title {
+    background: #f3f3f3;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 15px;
+  }
+  .form {
+    padding: 0 25px;
+    table {
+      width: 100%;
+      tr {
+        border-bottom: 1px solid #e2e2e2;
+        height: 58px;
+      }
+      th:nth-child(odd) {
+        width: 130px;
+        //vertical-align: top;
+      }
+      .name {
+        margin-left: 10px;
+        padding: 10px 10px;
+        color: #666666;
+      }
+      .info {
+        margin-right: 10px;
+        padding: 10px 10px;
+        i, span {
+          color: #1C6EEB;
+        }
+      }
+      tr:last-child {
+        border-bottom: 0;
+      }
+    }
+  }
+}

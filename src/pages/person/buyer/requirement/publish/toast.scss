@@ -1,0 +1,58 @@
+.file-toast-model {
+  margin: 35px 0;
+  .el-dialog {
+    height: 245px;
+    .el-dialog__header {
+      background: #F7F7F7;
+      line-height: 35px;
+      padding: 0 10px 0 18px;
+      .el-dialog__title {
+        font-size: 14px;
+        color: #333333;
+      }
+      .el-dialog__headerbtn {
+        vertical-align: middle;
+        margin-top: -15px;
+      }
+    }
+    .toast-main-box {
+      //display: inline-block;
+      width: 300px;
+      margin: 0 auto;
+      .left-part-icon {
+        float: left;
+        width: 45px;
+        height: 47px;
+      }
+      .right-part-text {
+        float: right;
+        width: 200px;
+        .toast-text-title {
+          font-size: 14px;
+          color: #333333;
+          letter-spacing: 0;
+          line-height: 24px;
+        }
+        .toast-text-desc {
+          font-size: 12px;
+          color: #2A2A2A;
+          letter-spacing: 0;
+          line-height: 24px;
+        }
+        .toast-bottom-btn button {
+          margin-top: 30px;
+          background-image: linear-gradient(-180deg, #FFFFFF 0%, #F6F6F6 100%);
+          border: 1px solid #E2E2E2;
+          border-radius: 2px;
+          width: 50px;
+          text-align: center;
+          height: 28px;
+          font-family: PingFangSC-Regular;
+          font-size: 12px;
+          color: #333333;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

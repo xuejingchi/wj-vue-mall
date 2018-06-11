@@ -1,0 +1,268 @@
+// element 分页样式覆盖
+.el-pagination{
+  button{
+    overflow:hidden;
+    height:34px  !important;
+    border: 1px solid #E5E5E5 !important;
+    background: #FFFFFF !important;
+    span{
+      width:78px !important;
+      text-align:center;
+      height:34px  !important;
+      line-height:34px  !important;
+      padding:0 6px !important;
+    }
+  }
+  button:hover{
+    border: 1px solid #2CAF64 !important;
+    color:#2CAF64 !important;
+  }
+  button.disabled:hover{
+    border: 1px solid #E5E5E5 !important;
+    color:#c0c4cc !important;
+  }
+  .el-pager{
+    li{
+      width:32px !important;
+      height:34px !important;
+      line-height:32px;
+      border: 1px solid #E5E5E5 !important;
+      padding:0 6px !important;
+      min-width:38px !important;
+      background: #FFFFFF !important;
+    }
+    li:hover{
+      border: 1px solid #2CAF64 !important;
+    }
+    li.active{
+      background-color: #2CAF64 !important;
+    }
+  }
+}
+// 商品列表下
+.goods-alert{
+  width:450px;
+  height:245px;
+  .el-message-box__header{
+    height:35px;
+    background: #F7F7F7;
+    padding:0 0;
+    padding-left:20px;
+    .el-message-box__title{
+      height:35px;
+      line-height:35px;
+      font-size: 14px;
+      color: #333333;
+      font-weight:600;
+    }
+    .el-message-box__headerbtn{
+      top:5px;
+    }
+  }
+  .el-message-box__content{
+    height:140px;
+    .el-message-box__message{
+      .img,.des{
+        float:left;
+      }
+      .img{
+        margin-top:50px;
+        margin-left:92px;
+        margin-right:26px;
+        width:47px;
+        height:47px;
+        line-height:46px;
+        color:#F18115;
+        i{
+          font-size:46px;
+        }
+        //background:url(../assets/reception/goodsList/)
+      }
+      .des{
+        width:200px;
+        height:96px;
+        margin-top:40px;
+        li{
+          font-size: 12px;
+          color: #2A2A2A;
+          line-height: 24px;
+        }
+        li:first-child{
+          font-size: 14px;
+          color: #333333;
+          font-weight:600;
+        }
+      }
+    }
+  }
+  .el-message-box__btns{
+    text-align:left;
+    margin-left:156px;
+  }
+}
+// element popover样式
+.my-popover{
+  border: 1px solid #F18115;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,0.20);
+  border-radius: 2px;
+  padding:15px 15px;
+  margin-top: 6px !important;
+  .popper__arrow::after{
+    border-bottom-color: #F18115 !important;
+    top: 0px !important;
+  }
+  .logistics{
+    overflow:hidden;
+    .title{
+      overflow:hidden;
+      border-bottom:1px solid #E2E2E2;
+      span,p{
+        float:left;
+        height:18px;
+        line-height:18px;
+        color: #666666;
+        margin-bottom:10px;
+      }
+      span{
+        font-family: PingFangSC-Regular;
+      }
+      p{
+        font-family: ArialMT;
+      }
+    }
+    .list{
+      overflow:hidden;
+      ul{
+        margin:15px 0px;
+        font-size: 12px;
+        li{
+          line-height:18px;
+        }
+        li:last-child{
+          padding-left:6px;
+        }
+      }
+      ul:first-child{
+        font-family: PingFangSC-Regular;
+        color: #F18115;
+        margin-top:10px;
+      }
+      ul:last-child{
+        margin-bottom:0px;
+      }
+    }
+    .bottom{
+      overflow:hidden;
+      margin-top:15px;
+      font-size:12px;
+      span,p{
+        float:left;
+        line-height:20px;
+        font-family: PingFangSC-Regular;
+        font-size: 12px;
+      }
+      p{
+        color: #1C6EEB;
+        margin-left:6px;
+      }
+    }
+  }
+}
+// 列表下无数据
+.no-data{
+  overflow:hidden;
+  margin-left:418px;
+  margin-top:136px;
+  .img{
+    width:115px;
+    height:115px;
+    background:url(../assets/person/buyer/no_data_2x.png) no-repeat;
+    background: image-set(url(../assets/person/buyer/no_data_2x.png) 2x,url(../assets/person/buyer/no_data_3x.png) 3x) center;
+    background-size:contain;
+  }
+  .des{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    width:115px;
+    text-align:center;
+    line-height:24px;
+    margin-top:10px;
+    margin-bottom:230px;
+  }
+}
+// 警告样式
+.el-message--warning{
+  background:#fff;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.35);
+  border-radius: 4px;
+  border:0px;
+  height:40px;
+  width:215px !important;
+  p{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666 !important;
+    letter-spacing: 0;
+    text-align: right;
+  }
+  i{
+    font-size:18px;
+  }
+}
+// 首页子账户修改密码弹框
+.edit-psd-dialog{
+  .el-dialog{
+    width:516px;
+    height:430px;
+    border-radius:8px;
+    .el-dialog__body{
+      padding:30px 56px;
+      .title{
+        font-size: 28px;
+        color: #333333;
+        line-height:30px;
+      }
+      .des{
+        font-size: 16px;
+        color: #666666;
+        margin-top:20px;
+        line-height:20px;
+      }
+      .line{
+        border-top:1px dotted  #D2D2D2;
+        width:400px;
+        margin:30px 0;
+      }
+      .form-box{
+        overflow:hidden;
+        padding-bottom:26px;
+        li{
+          height:40px;
+          position:relative;
+          margin-bottom:30px;
+          .label{
+            display:inline-block;
+            width:100px;
+            text-align:right;
+            margin-right:6px;
+          }
+          .input{
+            width:290px;
+          }
+          .btn{
+            width:400px;
+          }
+          .tips{
+            position:absolute;
+            bottom:-26px;
+            left:118px;
+            font-family: MicrosoftYaHei;
+            font-size: 14px;
+            color: #EB0700;
+          }
+        }
+      }
+    }
+  }
+}

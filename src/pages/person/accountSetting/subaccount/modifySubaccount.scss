@@ -1,0 +1,92 @@
+.addSubaccount {
+  padding-top: 36px;
+  .titel{
+    margin-top: 15px;
+    width: 965px;
+    height: 40px;
+    background-color: #F0F9FE;
+    border: 1px solid #E2E2E2;
+    border-radius: 2px;
+    line-height: 40px;
+    .titel-l{
+      float: left;
+      width: 151px;
+      .set{
+        margin-left: 18px;
+        font-size: 12px;
+        color: #666666;
+      }
+    }
+    .titel-r{
+      float: left;
+      width: 803px;
+      .round{
+        padding: 2px 5px;
+        border-radius: 50%;
+        background: #6B9CE4;
+        color: #fff;
+        margin-right: 5px;
+      }
+      .text{
+        font-size: 12px;
+        color: #999999;
+        margin-right: 5px;
+      }
+      .line{
+        color:#6B9CE4;
+        margin-right: 5px;
+      }
+    }
+  }
+  .list{
+    height: 500px;
+    border: 1px solid #E2E2E2;
+    margin-top: 15px;
+    .account{
+      background: #F9F9F9;
+      height: 35px;
+      line-height: 35px;
+      text-indent: 17px;
+      font-weight: 800;
+      font-size: 14px;
+    }
+    .role{
+      width: 800px;
+      margin-left: 100px;
+      margin-top: 20px;
+      .role-select{
+        font-size: 14px;
+        color: #666666;
+      }
+      .role-show{
+        margin-top: 24px;
+        font-size: 14px;
+        color: #666666;
+        .text{
+          position: absolute;
+        }
+        .tree{
+          padding: 10px 10px;
+          border: 1px solid #E2E2E2;
+          box-shadow: inset 2px 2px 2px 0 rgba(0,0,0,0.10);
+          margin-top: -15px;
+          margin-left: 80px;
+          width: 300px;
+          height: 300px;
+          overflow:auto;
+          background: #FAFAFA;
+        }
+        .el-tree {
+          cursor: default;
+          background: #FAFAFA;
+          color: #606266;
+        }
+      }
+    }
+  }
+  .footer-account{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}

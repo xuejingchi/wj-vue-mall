@@ -1,0 +1,40 @@
+.account-body {
+  width: 100%;
+  .account-content {
+    width: 1200px;
+    margin: 0 auto;
+    .account-left {
+      width: 200px;
+      height: 175px;
+      margin-right: 36px;
+      background: #FFFFFF;
+      border: 1px solid #E2E2E2;
+      border-top: 0 none;
+      .el-menu {
+        border-right: 0 none;
+        padding-top: 15px;
+        .el-menu-item {
+          line-height: 30px;
+          padding-left: 44px;
+          height: 30px;
+          font-size: 14px;
+          color: #333333;
+          margin-bottom: 7px;
+          &:hover {
+            background-color: transparent;
+            font-size: 14px;
+            color: #21B065;
+          }
+        }
+        .is-active {
+          background-color: #21B065 !important;
+          font-size: 14px;
+          color: #FFFFFF !important;
+        }
+      }
+    }
+    .account-right {
+      width: 963px;
+    }
+  }
+}

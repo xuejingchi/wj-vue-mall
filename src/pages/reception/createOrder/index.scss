@@ -1,0 +1,291 @@
+.el-main {
+}
+.color-bg {
+  background: #F8F8F8;
+  .logo-color{
+    background: white;
+    .seacrh {
+      width: 1200px;
+      margin: 0 auto;
+      padding-top: 30px;
+      .log {
+        width: 164px;
+        height: 55px;
+        margin-right: 115px;
+      }
+    }
+  }
+}
+.create-order {
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+  .seacrh {
+    width: 100%;
+    padding-top: 30px;
+    .log {
+      width: 164px;
+      height: 55px;
+      margin-right: 115px;
+    }
+  }
+  .nav {
+    color: red;
+    margin: 30px auto;
+    img {
+      width: 1200px;
+    }
+  }
+  .data {
+    margin-bottom : 30px;
+    .title {
+      font-size: 18px;
+    }
+    .info {
+      margin-top: 15px;
+      padding: 5px 40px;
+      background-color: #ffffff;
+      .line {
+        height: 34px;
+        line-height: 34px;
+        margin: 15px auto;
+        .el-input {
+          width: 120px;
+          height: 34px;
+          line-height: 34px;
+        }
+        .el-input__inner {
+          height: 34px !important;
+          line-height: 34px;
+          border-radius: 0;
+        }
+        .el-select {
+          margin-right: 5px;
+        }
+        .address {
+          width: 550px;
+        }
+        .name {
+          float: left;
+          width: 110px;
+          font-size: 14px;
+          span {
+            color: #FF4C4C;
+          }
+        }
+        .dead-line {
+          width: 160px;
+          float: left;
+          .el-icon-date {
+            line-height: 30px;
+          }
+        }
+        .contract {
+          float: left;
+          width: 110px;
+          span {
+            color: #FF4C4C;
+          }
+        }
+        .warning {
+          float: left;
+          width: 50px;
+        }
+        .contract-input {
+          float: left;
+          margin-right: 20px;
+          width: 130px;
+        }
+      }
+    }
+  }
+  .data-list {
+    margin-top: 15px;
+    .order {
+      background-color: #fff;
+      .title {
+        background-color: #E0EDF9;
+        height: 57px;
+        line-height: 57px;
+        font-size: 14px;
+        padding: 0 40px;
+        clear: both;
+        .name {
+          float: left;
+          width: 700px;
+        }
+        .number {
+          float: left;
+          width: 200px;
+        }
+        .price {
+          float: right;
+          text-align: right;
+        }
+      }
+      .tec-data {
+        padding: 16px 40px 21px 40px;
+        .name {
+          font-size: 12px;
+        }
+        .tec-detail {
+          border: 1px solid #e2e2e2;
+          margin-top: 9px;
+          border-bottom: 0;
+          .el-table td, .el-table th.is-leaf {
+            border: 0;
+          }
+          td:nth-child(odd) {
+            text-align: right;
+          }
+          td:nth-child(even) {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+  .create {
+    position: fixed;
+    z-index: 2;
+    margin: 0 auto;
+    bottom: 10px;
+    width: 1200px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #FFF8DE;
+    border: 1px solid #eedd9c;
+    padding-left: 40px;
+    .el-button {
+      background-image: linear-gradient(0deg, #F7F7F7 0%, #FFFFFF 100%);
+      border: 1px solid #DDDDDD;
+      border-radius: 2px;
+      color: #FF2828;
+    }
+    .tel-info {
+      float: left;
+      i {
+        margin-left: 20px;
+      }
+      .tel-icon {
+        margin: 0 10px 0 23px;
+        width: 330px;
+      }
+      .tel {
+        color: #666;
+      }
+    }
+    .amount {
+      float: left;
+      width: 150px;
+      margin-left: 212px;
+    }
+    .price {
+      float: left;
+      .title {
+        float: left;
+      }
+      .total-price {
+        float: left;
+        width: 200px;
+        color: #FF2828;
+        font-size: 20px;
+      }
+    }
+    .enter {
+      float: right;
+      text-align: center;
+      width: 250px;
+      height: 58px;
+      background-image: linear-gradient(-180deg, #FF615B 0%, #FF2E29 100%);
+      border: 1px solid #FF5F59;
+      font-family: PingFangSC-Semibold;
+      font-size: 16px;
+      color: #FFFFFF;
+      cursor: pointer;
+    }
+  }
+  .fix-fit {
+    position: relative !important;
+  }
+  .finish {
+    .form-result {
+      background: #F3FDED;
+      border: 1px solid #A2D087;
+      text-align: center;
+      height: 200px;
+      .title {
+        clear: both;
+        margin: 0 auto;
+        margin-top: 55px;
+        width: 900px;
+        height: 32px;
+        line-height: 32px;
+        padding-bottom: 80px;
+        border-bottom: 1px dotted #8EC170;
+        .el-icon-circle-check-outline {
+          color: #43B655;
+          font-size: 28px;
+          margin-right: 15px;
+        }
+        .name {
+          font-size: 28px;
+          color: #333333;
+          letter-spacing: 0;
+        }
+      }
+      .contact {
+        margin-top: 21px;
+        .hours {
+          color: #43B655;
+        }
+      }
+    }
+    .order-info {
+      margin-top: 20px;
+      padding: 20px 150px 70px 150px;
+      background-color: #fff;
+      .order-title {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 15px;
+      }
+      .order-detail {
+        margin-top: 15px;
+      }
+      .more-order {
+        margin-top: 80px;
+        clear: both;
+        .more {
+          float: left;
+          width: 150px;
+          height: 40px;
+          line-height: 40px;
+          background-image: linear-gradient(-180deg, #3ACA78 0%, #21A75A 100%);
+          border: 1px solid #2BB566;
+          border-radius: 2px;
+          text-align: center;
+          color: #fff;
+          cursor: pointer;
+        }
+        .contact {
+          float: left;
+          margin-left: 10px;
+          width: 150px;
+          height: 40px;
+          line-height: 40px;
+          background-image: linear-gradient(0deg, #F7F7F7 0%, #FFFFFF 100%);
+          border: 1px solid #DDDDDD;
+          text-align: center;
+          border-radius: 3px;
+          cursor: pointer;
+        }
+      }
+    }
+    .number {
+      margin: 50px auto 230px auto;
+      text-align: center;
+      color: #999;
+      font-size: 16px;
+    }
+  }
+}
